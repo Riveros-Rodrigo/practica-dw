@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500&family=Righteous&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: hsl(201, 11%, 66%);
+}
+h1, h2{
+    color: hsl(210, 10%, 33%);
+    text-align: center;
+    Font-size: 24px;
+}
+p{
+    color: hsl(201, 11%, 66%);
+    font-size: 18px;
+}
+/* Arranco header */
+header{
+    display: flex;
+    justify-content: center;
+    background-image: url(../images/bg-header-mobile.png);
+}
+header .logo{
+    margin: 3em 0em;
+}
+/* Arranca secciones */
+section{
+    width: 80%;
+    margin: auto;
+}
+.contenedor-principal p{
+    text-align: center;
+    margin: 1em 0em 2em 0em;
+}
+.contenedor-principal .botones{
+    text-align: center;
+}
+.contenedor-principal .botones .boton-ios{
+    background-color: hsl(171, 66%, 44%);
+    border: none;
+    border-radius: 100px;
+    padding: 1em 2em;
+    color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    margin-bottom: 1em;
+}
+.contenedor-principal .botones .boton-mac{
+    background-color: hsl(233, 100%, 69%);
+    border: none;
+    border-radius: 100px;
+    padding: 1em 2em;
+    color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    margin-bottom: 8em;
+}
+/* otra seccion */
+.contenedor-secundario p{
+    text-align: center;
+    margin: 1em 0em 3em 0em;
+}
+/* tercer contenedor */
+.tercer-contenedor img{
+    width: 80vw;
+}
+.tercer-contenedor .contenedor-texto h2{
+    margin-top: 2em;
+}
+.tercer-contenedor .contenedor-texto p{
+    text-align: center;
+    margin-top: 1em;
+}
+/* cuarto contenedor */
+.cuarto-contenedor h2{
+    margin-top: 6em;
+}
+.cuarto-contenedor p{
+    text-align: center;
+    margin-top: 1em;
+}
+.cuarto-contenedor div img{
+    width: 80vw;
+    margin: 3em 0em 4em;
+}
+/* quinto contenedor */
+.quinto-contenedor p{
+    text-align: center;
+    margin: 1em 0em 4em;;
+}
+.quinto-contenedor .contenedor-padre div .contenedor-img{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3em;
+}
+/* contenedor padre de logos */
+.quinto-contenedor .contenedor-padre-empresas{
+    margin: 8em 0em;
+}
+.quinto-contenedor .contenedor-padre-empresas div{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 4em;
+}
+/* contenedor secto */
+.contenedor-secto p{
+    text-align: center;
+    margin: 3em 0em;
+}
+
